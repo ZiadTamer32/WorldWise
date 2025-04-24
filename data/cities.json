@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "cityName": "Madrid",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2027-07-15T08:22:53.976Z",
+      "notes": "",
+      "position": {
+        "lat": 40.46635901755316,
+        "lng": -3.7133789062500004
+      },
+      "id": "178067"
+    },
+    {
+      "id": "6e05",
+      "cityName": "Giza",
+      "country": "Egypt",
+      "date": "2024-10-02T00:42:10.618Z",
+      "emoji": "EG",
+      "notes": "",
+      "position": {
+        "lat": "29.726222319395504",
+        "lng": "31.640625000000004"
+      }
+    }
+  ]
+}
