@@ -6,11 +6,11 @@ import {
   Marker,
   Popup,
   useMap,
-  useMapEvents,
+  useMapEvents
 } from "react-leaflet";
 import { useEffect, useState } from "react";
 import { useCities } from "../contexts/CitiesContexts";
-import { useGeolocation } from "../hooks/useGeoLocation";
+import { useGeolocation } from "../hooks/useGeolocation";
 import Button from "./Button";
 import useURL from "../hooks/useURL";
 
@@ -86,7 +86,7 @@ function ChangeCenter({ position }) {
 function DetectClick() {
   const navigate = useNavigate();
   useMapEvents({
-    click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`),
+    click: (e) => navigate(`form?lat=${e.latlng.lat}&lng=${e.latlng.lng}`)
   });
 }
 
